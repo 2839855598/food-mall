@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body {
+  font: 14px/1 status-bar;
+
+}
+
+body, form, ul, ol, dl, dd, p {
+  margin: 0;
+}
+ul, ol {
+  padding: 0;
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  // 继承body的font-size
+  font-size: 100%;
+  margin: 0;
+  font-weight: 400;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+img {
+  /* ie 10及其以下 a链接下面img 会有蓝色边框*/
+  border: none;
+  vertical-align: middle;
+}
+
+input, textarea, select, button {
+  font-size: 1em;
+  font-family: inherit;
+}
+
