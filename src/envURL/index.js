@@ -6,7 +6,8 @@ const modeUrlObj = {
   production: {
     // publicPath: 'https://xxxx:8082/prod',
     // 以便本地能打开, 就设置跟 ./ 本地路径
-    publicPath: './',
+    // 为空就是相对路径
+    publicPath: '',
   },
   test: {
     publicPath: 'https://xxxx:9090/test',

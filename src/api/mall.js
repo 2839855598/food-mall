@@ -9,19 +9,19 @@ const mall = {
   // 商家数据
   seller (params) {
     // 相当于 params: params
-    return axios.get(`${ports.dev}api/seller`, {
+    return axios.get(`${ports}api/seller`, {
       params
     })
   },
   // 商品数据
   goods (params) {
-    return axios.get(`${ports.dev}api/goods`, {
+    return axios.get(`${ports}api/goods`, {
       params
     })
   },
   // 评价数据
   ratings (params) {
-    return axios.get(`${ports.dev}api/ratings`, {
+    return axios.get(`${ports}api/ratings`, {
       params
     })
   }
