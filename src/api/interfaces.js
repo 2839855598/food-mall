@@ -3,6 +3,6 @@
 const ports = {
   // 不能固定死，比如 http://localhost:8080/
   dev: '/',
-  production: 'http://47.105.169.196/food-mall/'
+  production: '/'
 }
 export default ports[process.env.NODE_ENV];
