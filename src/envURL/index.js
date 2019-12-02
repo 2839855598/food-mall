@@ -4,10 +4,10 @@ const modeUrlObj = {
     publicPath: '/',
   },
   production: {
-    // publicPath: 'https://xxxx:8082/prod',
-    // 以便本地能打开, 就设置跟 ./ 本地路径
-    // 为空就是相对路径
-    publicPath: './',
+    // hash模式下用 './', history模式下, 如果部署在服务器根目录(/)下,
+    // 用 '/', 如果部署在服务器子目录下(如: /food-mall/)下, 就用
+    // '/food-mall/'
+    publicPath: '/food-mall/',
   },
   test: {
     publicPath: 'https://xxxx:9090/test',
